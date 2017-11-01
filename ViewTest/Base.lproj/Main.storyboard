@@ -72,6 +72,33 @@
                                     <segue destination="0kb-Kq-2Uh" kind="presentation" id="7FB-dU-Stl"/>
                                 </connections>
                             </button>
+                            <toolbar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KDR-wM-csQ">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem title="Yellow" id="kdO-GN-Yfm">
+                                        <connections>
+                                            <segue destination="Q4Y-kH-Sfv" kind="presentation" id="qfv-cz-8On"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Red" id="6KQ-mb-0uf">
+                                        <connections>
+                                            <segue destination="0kb-Kq-2Uh" kind="presentation" id="rlM-Jy-XRS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Blue" id="1T7-Ch-mzD">
+                                        <connections>
+                                            <segue destination="Acv-C7-SsT" kind="presentation" id="s11-fM-zyB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Green" id="MwJ-b4-wyz">
+                                        <connections>
+                                            <segue destination="jWb-hV-qlC" kind="presentation" id="OwN-7K-nek"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="0.78928513601036265" green="0.78928513601036265" blue="0.78928513601036265" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -79,6 +106,7 @@
                     </view>
                 </viewController>
             </objects>
+            <point key="canvasLocation" x="-391" y="169"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lHT-aQ-vTV">
@@ -195,6 +223,21 @@
             <point key="canvasLocation" x="1973.5999999999999" y="478.11094452773619"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="5Qy-0L-7J4">
+            <objects>
+                <viewController id="Upq-fm-hR3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j9W-cz-j84">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="X2h-72-xTe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tmM-Ka-Icl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="271" y="-297"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="6gA-79-eLO">
             <objects>
                 <viewController id="0kb-Kq-2Uh" sceneMemberID="viewController">
@@ -295,10 +338,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Get-Y5-j3A"/>
-        <segue reference="5fe-be-PAN"/>
-        <segue reference="dD2-r8-Wxa"/>
-        <segue reference="w4F-NL-vhV"/>
-        <segue reference="xY3-md-msR"/>
+        <segue reference="uOR-5d-9Au"/>
+        <segue reference="7FB-dU-Stl"/>
+        <segue reference="qfv-cz-8On"/>
+        <segue reference="JQs-FC-txR"/>
+        <segue reference="X00-ro-oKs"/>
     </inferredMetricsTieBreakers>
 </document>
